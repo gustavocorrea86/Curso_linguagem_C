@@ -1,6 +1,8 @@
 int main(int argc, char const *argv[])
 {
-    printf("ola mundo");
-    return 0;
+     char nome;
+    printf("Qual seu nome?");
+    scanf("%s",&nome);
+    printf("Muito prazer, %s",&nome);
+    
 }
-
